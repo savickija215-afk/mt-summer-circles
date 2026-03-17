@@ -232,7 +232,7 @@ const OfflineCamp = () => {
                 <item.icon size={16} className="text-primary shrink-0 mt-0.5" />
                 <p className="text-xs font-medium leading-snug">{item.text}</p>
               </div>
-            ))
+            ))}
           </div>
         </div>
       </section>
