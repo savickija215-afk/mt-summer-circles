@@ -252,7 +252,7 @@ const OfflineCamp = () => {
               <div key={i} className="card-elevated overflow-hidden">
                 <img src={src} alt="Фото из лагеря" className="w-full aspect-square object-cover" loading="lazy" />
               </div>
-            ))
+            ))}
           </div>
         </div>
       </section>
