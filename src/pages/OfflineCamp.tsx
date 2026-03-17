@@ -119,7 +119,7 @@ const OfflineCamp = () => {
                   <span className="text-lg font-extrabold text-primary shrink-0 w-16 text-center">{item.num}</span>
                   <p className="text-sm leading-relaxed">{item.text}</p>
                 </div>
-              ))
+              ))}
             </div>
             <div className="space-y-4">
               <div className="card-elevated overflow-hidden">
