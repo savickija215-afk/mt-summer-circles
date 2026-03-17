@@ -152,7 +152,7 @@ const OfflineCamp = () => {
                 "Большой объём занятий — учебный буст, сопоставимый с большой частью годового кружка",
               ].map((t, i) => (
                 <li key={i} className="flex gap-2"><CheckCircle size={14} className="text-primary shrink-0 mt-0.5" />{t}</li>
-              ))
+              ))}
             </ul>
           </div>
           <div className="card-elevated p-6 space-y-4">
