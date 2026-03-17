@@ -192,7 +192,7 @@ const OfflineCamp = () => {
                 <p className="text-2xl font-extrabold text-primary mb-1">{item.metric}</p>
                 <p className="text-xs text-muted-foreground leading-snug">{item.label}</p>
               </div>
-            ))
+            ))}
           </div>
           <div className="mt-8">
             <button onClick={openModal} className="h-11 px-6 rounded-2xl bg-primary text-primary-foreground font-semibold text-sm">
