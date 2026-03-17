@@ -165,7 +165,7 @@ const OfflineCamp = () => {
                 "Вечерние мероприятия и общение",
               ].map((t, i) => (
                 <li key={i} className="flex gap-2"><CheckCircle size={14} className="text-primary shrink-0 mt-0.5" />{t}</li>
-              ))
+              ))}
             </ul>
           </div>
         </div>
