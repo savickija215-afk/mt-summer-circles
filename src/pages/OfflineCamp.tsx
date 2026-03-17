@@ -99,7 +99,7 @@ const OfflineCamp = () => {
               <h3 className="text-sm font-bold leading-snug">{item.title}</h3>
               <p className="text-xs text-muted-foreground leading-relaxed">{item.desc}</p>
             </div>
-          ))
+          ))}
         </div>
       </section>
 
