@@ -1,5 +1,5 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "ALLOWALL"
-    Content-Security-Policy = "frame-ancestors *"
+    X-Frame-Options = "SAMEORIGIN"
+    Content-Security-Policy = "frame-ancestors 'self' https://tilda.ws https://*.tilda.ws https://tilda.cc https://*.tilda.cc *"
